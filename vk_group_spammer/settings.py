@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # General use templates & template tags (should appear first)
+    'django_adminlte',
+    # Optional: Django admin theme (must be before django.contrib.admin)
+    'django_adminlte_theme',
 ]
 
 MIDDLEWARE = [
